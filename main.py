@@ -1,3 +1,3 @@
-# Last updated: 2026-01-09 18:21:11
+# Last updated: 2026-01-12 16:32:06
 
 def fibonacci(n):    if n <= 1:        return n    return fibonacci(n-1) + fibonacci(n-2)if __name__ == "__main__":    for i in range(10):        print(f"F({i}) = {fibonacci(i)}")
